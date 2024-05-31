@@ -69,7 +69,7 @@ totalPrice(10);
 // - Crea una función llamada writeMessage que reciba "name, material, size y note" y que escriba el siguiente mensaje por consola "[name] ha pedido una caja de [material] de tamaño [size]. [note].
 
 function writeMessage(name, material, size, note) {
-  console.log(name + ' ha pedido una caja de ' + material + ' de tamaño ' + size);
+  console.log(name + ' ha pedido una caja de ' + material + ' de tamaño ' + size + '. ' + note);
 }
 
-writeMessage('Pepe', 'camisetas', 'M');
+writeMessage('Pepe', 'camisetas', 'M', 'Gracias');
