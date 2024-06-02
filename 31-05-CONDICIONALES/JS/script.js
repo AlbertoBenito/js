@@ -123,3 +123,6 @@ if(j % 4 === 0 && j % 100 !== 0 || (j % 400 === 0)) {
 
 
 // - Crea una función que reciba dos valores y los sume, la función debe sumar los valores aunque se los mandemos en formato string y SÓLO debe convertirlos a number si llegan como string.
+
+
+//NO SABIA HACERLO
