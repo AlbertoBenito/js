@@ -17,12 +17,12 @@
 
 // - Crea una función que reciba un nombre y una edad e imprima por consola "Hola [nombre], eres mayor/menor de edad" en función de la edad que le pasemos.
 
-const a = 20
+const a = 30
 const name = 'Carlos'
 
 if( a >= 18){
     console.log('Hola ' + name + ' eres mayor de edad' )
-} else if(a <= 18){
+} else{
     console.log('Hola ' + name + ' eres menor de edad' )
 }
 
