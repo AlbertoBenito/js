@@ -1,0 +1,33 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #6e344e
+  square: #ffc677
+*/
+
+.box {
+  background-color: #6e344e;
+  
+}
+
+.square {
+  
+  position: relative;
+  top: 50px;
+  left: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: #ffc677 ;
+  box-shadow: 0 150px 0 0  #ffc677;
+}
+
+.square::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  background-color:  #ffc677 ;
+  box-shadow: 0 150px 0 0  #ffc677;
+}
