@@ -11,4 +11,34 @@ Colors:
 }
 
 .leaf {
+  content: '';
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  width: 120px;
+  height: 120px;
+  background-color:  #f3ac3c;
+  border-radius: 100%  0  100% 100%;
+  
+}
+.leaf::after{
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 60px;
+  width: 120px;
+  height: 120px;
+  background-color:  #998235;
+  border-radius: 100%  0  100% 100%;
+}
+
+.leaf::before{
+content: '';
+position: absolute;
+background-color:  #f3ac3c;
+width: 120px;
+height: 120px;
+top: -120px ;
+left: 120px;
+border-radius: 50%;
 }
