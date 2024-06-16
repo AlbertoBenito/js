@@ -11,4 +11,41 @@ Colors:
 }
 
 .note {
+  position: absolute;
+  top: 170px;
+  left: 55px;
+  width: 50px;
+  height: 40px;
+  background-color:#FE5F55 ;
+  border-radius: 50%;
+  box-shadow: 
+  70px 0px 0 0 #FE5F55,
+  140px 0px 0 0 #A64942,
+  210px 0px 0 0 #FE5F55 ;
+}
+.note::before{
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: 40px;
+  width: 10px;
+  height: 100px;
+  background-color:#FE5F55 ;
+  box-shadow:   70px 0px 0 0 #FE5F55,
+  140px 0px 0 0 #A64942,
+  210px 0px 0 0 #FE5F55 ;
+}
+
+.note::after{
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: 50px;
+  width: 60px;
+  height: 10px;
+  background-color:#FE5F55 ;
+  box-shadow:   
+  140px 0px 0 0px #A64942,
+  200px 0px 0 0 #FE5F55,
+  200px 20px 0 0 #FE5F55;
 }

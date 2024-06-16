@@ -9,7 +9,35 @@ Colors:
 
 .box {
   background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+ 
+  background-color: #E08027;
+  border: 20px solid #FFF58F;
+  border-top-color: transparent;
+  border-left-color:transparent ;
+  box-shadow: 0 0 0 30px #824B20;
+  rotate: 45deg;
 }
+
+
+/* .circle::before { 
+content: '';
+position:absolute; 
+top: 80px;
+left: 135px;
+width: 130px; 
+height: 30px; 
+border-radius: 20px;
+background-color:#FFF58F; 
+border-bottom: 9px solid #FFF58F; 
+
+
+}  */

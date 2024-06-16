@@ -8,7 +8,31 @@ Colors:
 
 .box {
   background-color: #f3ac3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.rectangle {
+.switch{
+  width: 200px;
+  height: 200px;
+  background-color: #1A4341;
+}
+.switch::before{
+  content: '';
+  position: absolute;
+  top: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: #998235;
+}
+
+.switch::after{
+  content: '';
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: #F3AC3C;
 }

@@ -8,7 +8,27 @@ Colors:
 
 .box {
   background-color: #aa445f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .shape {
+  position: absolute;
+  left: 70px;
+  width: 100px;
+  height: 200px;
+  background-color:#F7EC7D ;
+  border-radius: 100px 0px 0px 100px;
+  
+}
+.shape::after {
+  content: '';
+  position: absolute;
+  left: 150px;
+  width: 100px;
+  height: 200px;
+  background-color:#E38F66;
+  border-radius: 0px 100px 100px 0px;
+  
 }

@@ -7,7 +7,28 @@ Colors:
 
 .box {
   background-color: #6592cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .letter {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 50px solid #243D83;
+  border-left-color: transparent;
+  rotate: 45deg;
+}
+
+.letter::after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -59px;
+  width: 50px;
+  height: 105px;
+  background-color: #243D83;
+  rotate: -45deg;
 }

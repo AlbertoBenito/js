@@ -9,7 +9,26 @@ Colors:
 
 .box {
   background-color: #293462;
+ 
 }
 
 .ice-cream {
+position: relative;
+top: 50px;
+left: 150px;
+  width: 100px;
+  height: 150px;
+  background-color:#FFF1C1 ;
+  border-radius: 100px 100px 40px 40px;
 }
+.ice-cream::after {
+  content: '';
+  position: absolute;
+  top: 150px;
+  left: 35px;
+    width: 30px;
+    height: 50px;
+    background-color:#FE5F55;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0 10px 0 0 #A64942;
+  }

@@ -8,7 +8,43 @@ Colors:
 
 .box {
   background-color: #293462;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .head {
+  position: relative;
+  
+  height: 200px;
+  width: 200px;
+  background-color:#fe5f55;
+  border-radius: 100% 100% 50% 50%;
+  overflow: hidden;
+
+}
+
+.head::after{
+  content: '';
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  height: 60px;
+  width: 60px;
+  background-color: #fff1c1;
+  border-radius: 50%;
+  box-shadow: 100px 0 0 0 #fff1c1,
+  0px -120px 0 20px #fff1c1,
+  100px -120px 0 20px #fff1c1;
+}
+.head::before{
+content: '';
+position: absolute;
+top: 170px;
+left: 80px;
+  height: 10px;
+  width: 40px;
+  background-color: #fff1c1;
+  border-radius:10px ;
 }

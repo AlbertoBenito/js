@@ -8,7 +8,30 @@ Colors:
 
 .box {
   background-color: #e38f66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .shape {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: #AA445F ;
+
+}
+.shape::after{
+  content: '';
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 30px solid #F7EC7D;
+  border-top-color: transparent ;
+  border-bottom-color: transparent ;
+  rotate: -45deg;
+
 }
