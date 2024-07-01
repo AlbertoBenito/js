@@ -42,7 +42,7 @@ const userHistoria = {
   
 }
 
-console.log (`Hola me llamo ${userHistoria.name} ${userHistoria.surname}  tengo ${userHistoria.age} mis hobbies son ${userHistoria.hobbies}. Vivo en la C/${userHistoria.address.street} en la ciudad de  ${userHistoria.address.city} en el estado de ${userHistoria.address.state} mi codigo postal es ${userHistoria.address.postalCode} en ${userHistoria.address.country}. Mi trabajo es ${userHistoria.occupation} y estudie  ${userHistoria.education}. Mis datos de contacto son, NUMERO:${userHistoria.phone}, EMAIL:${userHistoria.email}. Tengo dos mascotas un ${userHistoria.pets}`);
+console.log (`Hola me llamo ${userHistoria.name} ${userHistoria.surname}  tengo ${userHistoria.age} mis hobbies son ${userHistoria.hobbies}. Vivo en la C/${userHistoria.address.street} en la ciudad de  ${userHistoria.address.city} en el estado de ${userHistoria.address.state} mi codigo postal es ${userHistoria.address.postalCode} en ${userHistoria.address.country}. Mi trabajo es ${userHistoria.occupation} y estudie  ${userHistoria.education}. Mis datos de contacto son, NUMERO:${userHistoria.phone}, EMAIL:${userHistoria.email}. Tengo dos mascotas un ${userHistoria.pets[0].type} llamado ${userHistoria.pets[0].name} y un ${userHistoria.pets[1].type} llamado ${userHistoria.pets[1].name}` );
 
 
 // - Dado este objeto, rellena los 5 arrays con el array de numbers. número + 2, número x 2, número / 2, números pares y números impares.
